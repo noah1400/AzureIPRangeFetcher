@@ -1,7 +1,5 @@
 # AzureIPRangeFetcher
-This PowerShell script retrieves, parses, and writes the Azure IP address ranges to local files.
-
-The default directory is './AzureIPRanges' but this can be customized by passing a different directory path as the $Path argument when running the script.
+This PowerShell script retrieves, parses, and writes the [Azure IP address ranges](https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519) to local files.
 
 **Please note: Error handling is incorporated throughout the script to manage potential issues such as failed web requests or unexpected data structures in the retrieved JSON.**
 
