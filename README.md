@@ -7,7 +7,7 @@ Usage
 The script can be run as follows:
 
 ```powershell
-.\script.ps1 -Path 'path/to/directory'
+.\extract.ps1 -Path 'path/to/directory'
 ```
 If the -Path argument is omitted, the script will use './AzureIPRanges' as the default directory.
 
