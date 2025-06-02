@@ -25,7 +25,7 @@ catch {
 }
 
 # Find the JSON url using regex
-if ($pageContent.Content -match 'data-bi-id="downloadretry" href="(?<url>.*\.json?)"') {
+if ($pageContent.Content -match '<a href="(?<url>.*\.json?)" download') {
     $jsonUrl = $matches['url']
 }
 else {
